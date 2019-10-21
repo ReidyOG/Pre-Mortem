@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Shooting_Assets
 {
@@ -8,10 +9,10 @@ namespace Shooting_Assets
         public float speed;
         public float despawn;
         // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
+//        void Start()
+//        {
+//        
+//        }
 
         // Update is called once per frame
         void Update()

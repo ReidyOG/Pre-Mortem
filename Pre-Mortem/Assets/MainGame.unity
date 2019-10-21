@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -125,7 +125,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 993775894}
     m_Modifications:
     - target: {fileID: 167956, guid: b948b1f052e2d4b4fb558435f3740b88, type: 3}
       propertyPath: m_Name
@@ -161,7 +161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22450850, guid: b948b1f052e2d4b4fb558435f3740b88, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 22450850, guid: b948b1f052e2d4b4fb558435f3740b88, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -259,6 +259,7 @@ GameObject:
   - component: {fileID: 615027542}
   - component: {fileID: 615027544}
   - component: {fileID: 615027543}
+  - component: {fileID: 615027545}
   m_Layer: 0
   m_Name: PlayerModel
   m_TagString: Untagged
@@ -325,6 +326,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 615027541}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &615027545
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615027541}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.0528636, z: 1.0937166}
+  m_Center: {x: 0, y: 0.026431799, z: 0.04685834}
 --- !u!1 &618936320
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,6 +770,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1007679202}
+  - {fileID: 1401516963}
   m_Father: {fileID: 1118122631}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -822,7 +837,7 @@ GameObject:
   - component: {fileID: 1007679203}
   m_Layer: 0
   m_Name: Gun
-  m_TagString: Untagged
+  m_TagString: Gun
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -841,7 +856,6 @@ Transform:
   - {fileID: 865543047}
   - {fileID: 1510744696}
   - {fileID: 771287552}
-  - {fileID: 1516351682}
   m_Father: {fileID: 993775894}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -859,7 +873,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 1052092732211827063, guid: 686f11c8b4197a5448742c609e221081,
     type: 3}
-  speed: 20
+  speed: 40
   despawn: 1
 --- !u!1 &1118122627
 GameObject:
@@ -874,6 +888,7 @@ GameObject:
   - component: {fileID: 1118122630}
   - component: {fileID: 1118122629}
   - component: {fileID: 1118122632}
+  - component: {fileID: 1118122633}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -936,7 +951,6 @@ Transform:
   m_Children:
   - {fileID: 576386446}
   - {fileID: 993775894}
-  - {fileID: 111304028}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -954,6 +968,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   look_sensitivity: 3
+--- !u!64 &1118122633
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118122627}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1 &1337220710
 GameObject:
   m_ObjectHideFlags: 0
@@ -986,6 +1014,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!224 &1401516963 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 22450850, guid: b948b1f052e2d4b4fb558435f3740b88,
+    type: 3}
+  m_PrefabInstance: {fileID: 546702496}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1510744695
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,12 +1126,12 @@ PrefabInstance:
     - target: {fileID: 3809590846972587631, guid: c00e8c583afe87d43934f62908a22826,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 3809590846972587631, guid: c00e8c583afe87d43934f62908a22826,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1
+      value: -0.45
       objectReference: {fileID: 0}
     - target: {fileID: 3809590846972587631, guid: c00e8c583afe87d43934f62908a22826,
         type: 3}

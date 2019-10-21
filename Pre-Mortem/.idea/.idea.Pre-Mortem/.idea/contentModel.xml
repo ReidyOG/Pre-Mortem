@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Yash\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -8,9 +8,18 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Enemies" t="Include">
+          <e p="Skeleton01" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="skeleton01_chase.cs" t="Include" />
+              <e p="skeleton01_health.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="PlayerController.cs" t="Include" />
         <e p="PlayerMotor.cs" t="Include" />
         <e p="Shooting Assets" t="Include">
+          <e p="BulletCollision.cs" t="Include" />
           <e p="ShootBullet.cs" t="Include" />
         </e>
         <e p="Standard Assets" t="Include">

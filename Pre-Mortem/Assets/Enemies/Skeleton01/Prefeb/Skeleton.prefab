@@ -1096,8 +1096,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3809590846762238306}
   - component: {fileID: 3809590846762238317}
+  - component: {fileID: 1549331929092205558}
   m_Layer: 0
-  m_Name: Object01
+  m_Name: SkeleSword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1167,6 +1168,20 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.0014118608, y: 0.00002192147, z: 0.040557608}
     m_Extent: {x: 0.012434602, y: 0.006705285, z: 0.05640191}
   m_DirtyAABB: 0
+--- !u!64 &1549331929092205558
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809590846762238307}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300002, guid: a749f4485b342b7469956010abf2ab25, type: 3}
 --- !u!1 &3809590846814977090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,8 +1192,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3809590846814977101}
   - component: {fileID: 3809590846814977100}
+  - component: {fileID: 2765374124770990426}
   m_Layer: 0
-  m_Name: Object02
+  m_Name: SkeleBody
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1281,6 +1297,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.011821274, y: 0.005415788, z: -0.000000014901161}
     m_Extent: {x: 0.07841134, y: 0.01940385, z: 0.06694175}
   m_DirtyAABB: 0
+--- !u!64 &2765374124770990426
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809590846814977090}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: 188f1042b5ff4644389fad5df1f98d7c, type: 3}
 --- !u!1 &3809590846848819173
 GameObject:
   m_ObjectHideFlags: 0
@@ -1419,11 +1449,11 @@ GameObject:
   - component: {fileID: 3809590846972587628}
   - component: {fileID: 3809590846972587629}
   - component: {fileID: 3809590846972587618}
-  - component: {fileID: 3809590846972587619}
   - component: {fileID: 3774040109253497214}
+  - component: {fileID: 1929808086}
   m_Layer: 0
   m_Name: Skeleton
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1472,7 +1502,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3809590846972587622}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.03466842
   m_Height: 0.15831818
@@ -1494,20 +1524,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!136 &3809590846972587619
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3809590846972587622}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 0.03466842
-  m_Height: 0.15831818
-  m_Direction: 1
-  m_Center: {x: 0, y: 0.07265128, z: 0}
 --- !u!114 &3774040109253497214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1521,6 +1537,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTag: Player
+--- !u!114 &1929808086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3809590846972587622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7347cb1585d3d4b90d18ac302969e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 3
+  skeleAnimator: {fileID: 3809590846972587628}
 --- !u!1 &3809590847121541850
 GameObject:
   m_ObjectHideFlags: 0
