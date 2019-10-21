@@ -8,7 +8,7 @@ public class skeleton01_chase : MonoBehaviour
 {
     //public Transform player;
     [SerializeField]
-    static Animator anim;
+    private Animator anim;
     //public Slider healthbar;
     [SerializeField]
     public string targetTag = "Player";

@@ -4,7 +4,10 @@ namespace Enemies.Skeleton01.Scripts
 {
     public class skeleton01_health : MonoBehaviour
     {
-        public int health = 3;
+
+        public RectTransform healthBar;
+
+        public int health = 5;
         public Animator skeleAnimator;
 
         private bool collided = false;
@@ -17,6 +20,9 @@ namespace Enemies.Skeleton01.Scripts
         // Update is called once per frame
         void Update()
         {
+
+            healthBar.sizeDelta = new Vector2(health * 40, healthBar.sizeDelta.y);
+
             if (skeleAnimator.GetNextAnimatorStateInfo(0).IsName("Damage") && !collided)
             {
                 health--;
@@ -28,7 +34,7 @@ namespace Enemies.Skeleton01.Scripts
             if(health == 0)
             {
                 skeleAnimator.SetTrigger("isDead");
-                Destroy(gameObject, 3);
+                Destroy(gameObject, 2);
             }
         }
     }
