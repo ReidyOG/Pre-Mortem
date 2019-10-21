@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 522}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -120,10 +120,14 @@ MonoBehaviour:
 =======
     width: 1366
     height: 675
-  m_MinSize: {x: 713, y: 472}
-  m_MaxSize: {x: 18008, y: 14044}
+  m_MinSize: {x: 711, y: 472}
+  m_MaxSize: {x: 18006, y: 14044}
   vertical: 1
+<<<<<<< HEAD
   controlID: 113
+>>>>>>> Develop
+=======
+  controlID: 13
 >>>>>>> Develop
 --- !u!114 &6
 MonoBehaviour:
@@ -154,10 +158,14 @@ MonoBehaviour:
 =======
     width: 1366
     height: 675
-  m_MinSize: {x: 713, y: 472}
-  m_MaxSize: {x: 18008, y: 14044}
+  m_MinSize: {x: 711, y: 472}
+  m_MaxSize: {x: 18006, y: 14044}
   vertical: 0
+<<<<<<< HEAD
   controlID: 114
+>>>>>>> Develop
+=======
+  controlID: 14
 >>>>>>> Develop
 --- !u!114 &7
 MonoBehaviour:
@@ -192,7 +200,11 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 472}
   m_MaxSize: {x: 14006, y: 14044}
   vertical: 1
+<<<<<<< HEAD
   controlID: 37
+>>>>>>> Develop
+=======
+  controlID: 64
 >>>>>>> Develop
 --- !u!114 &8
 MonoBehaviour:
@@ -228,7 +240,11 @@ MonoBehaviour:
   m_MinSize: {x: 302, y: 200}
   m_MaxSize: {x: 8002, y: 4022}
   vertical: 0
+<<<<<<< HEAD
   controlID: 38
+>>>>>>> Develop
+=======
+  controlID: 65
 >>>>>>> Develop
 --- !u!114 &9
 MonoBehaviour:
@@ -259,8 +275,8 @@ MonoBehaviour:
 =======
     width: 769
     height: 403
-  m_MinSize: {x: 102, y: 122}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -342,7 +358,11 @@ MonoBehaviour:
   m_MinSize: {x: 436, y: 272}
   m_MaxSize: {x: 14006, y: 10022}
   vertical: 0
+<<<<<<< HEAD
   controlID: 15
+>>>>>>> Develop
+=======
+  controlID: 91
 >>>>>>> Develop
 --- !u!114 &12
 MonoBehaviour:
@@ -372,8 +392,8 @@ MonoBehaviour:
 =======
     width: 642
     height: 272
-  m_MinSize: {x: 202, y: 222}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -536,8 +556,8 @@ MonoBehaviour:
     y: 0
     width: 393
     height: 675
-  m_MinSize: {x: 277, y: 72}
-  m_MaxSize: {x: 4002, y: 4022}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -717,14 +737,20 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: a697993cca5a568498359128a769c17a
+<<<<<<< HEAD
   m_Gizmos: 1
   m_SceneIsLit: 0
+=======
+  m_Gizmos: 0
+  m_SceneIsLit: 1
+>>>>>>> Develop
   m_SceneLighting: 1
   m_2DMode: 0
   m_isRotationLocked: 0
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< HEAD
     m_Target: {x: 4.1102314, y: 1.2415932, z: 18.637611}
     speed: 2
@@ -733,6 +759,11 @@ MonoBehaviour:
     m_Target: {x: 4.615075, y: -14.539959, z: 55.076553}
     speed: 2
     m_Value: {x: 4.615075, y: -14.539959, z: 55.076553}
+>>>>>>> Develop
+=======
+    m_Target: {x: 49.78401, y: -52.883434, z: 24.334406}
+    speed: 2
+    m_Value: {x: 49.78401, y: -52.883434, z: 24.334406}
 >>>>>>> Develop
   m_RenderMode: 0
   m_CameraMode:
@@ -763,6 +794,7 @@ MonoBehaviour:
       m_Value: 0
   m_Rotation:
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: -0.14083956, y: 0.0035610776, z: -0.0005074579, w: -0.99002993}
     speed: 2
     m_Value: {x: 0.030351311, y: 0.8869725, z: -0.058901124, w: 0.4570441}
@@ -772,12 +804,19 @@ MonoBehaviour:
     m_Value: 8.345943
 =======
     m_Target: {x: 0.2810497, y: 0.11143635, z: -0.032538537, w: 0.9527793}
+=======
+    m_Target: {x: 0.6285586, y: -0.018245041, z: 0.014788987, w: 0.77759147}
+>>>>>>> Develop
     speed: 2
-    m_Value: {x: 0.30329058, y: 0.082233325, z: -0.025948206, w: 0.9489885}
+    m_Value: {x: 0.627279, y: -0.019432219, z: 0.015700411, w: 0.77839386}
   m_Size:
-    m_Target: 124.376724
+    m_Target: 119.52514
     speed: 2
+<<<<<<< HEAD
     m_Value: 119.02079
+>>>>>>> Develop
+=======
+    m_Value: 125.15721
 >>>>>>> Develop
   m_Ortho:
     m_Target: 0
@@ -877,24 +916,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 833}
-      m_SelectedIDs: d6490000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 663effff60e6ffff8efbffff7a38000070390000e0390000f2390000143a0000203a00006a3a0000ae3a00005e500000f65000002a520000a4520000c6520000465300009a530000d0530000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 8cfbffff
+      m_LastClickedID: -1140
+      m_ExpandedIDs: 9048feff8efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Cylinder
-        m_OriginalName: Cylinder
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -2478
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -950,9 +989,13 @@ MonoBehaviour:
     m_SearchArea: 1
     m_Folders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Enemies/Skeleton01/Ani
 =======
     - Assets/HighQualityBricks&Walls/Materials
+>>>>>>> Develop
+=======
+    - Assets
 >>>>>>> Develop
   m_ViewMode: 0
   m_StartGridSize: 64
@@ -966,9 +1009,13 @@ MonoBehaviour:
     m_SelectedIDs: b6280000
     m_LastClickedID: 10422
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: ffffffff00000000022b00008c2d0000a42e0000422f0000ac300000b8300000e2330000583700005a370000
 =======
     m_ExpandedIDs: 00000000f02a00007a2d0000922e0000963000003e370000
+>>>>>>> Develop
+=======
+    m_ExpandedIDs: 00000000c82b0000262d0000942e0000c22f0000da2f000040320000be390000
 >>>>>>> Develop
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -995,6 +1042,7 @@ MonoBehaviour:
       m_ResourceFile: 
   m_AssetTreeState:
 <<<<<<< HEAD
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 292}
     m_SelectedIDs: 
     m_LastClickedID: 0
@@ -1004,6 +1052,12 @@ MonoBehaviour:
     m_SelectedIDs: 
     m_LastClickedID: 0
     m_ExpandedIDs: ffffffff00000000f02a00007a2d0000922e0000963000003e370000a8480000c0480000
+>>>>>>> Develop
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff00000000c82b0000da2f0000
 >>>>>>> Develop
     m_RenameOverlay:
       m_UserAcceptedRename: 0
