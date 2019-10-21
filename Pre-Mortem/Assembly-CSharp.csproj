@@ -65,6 +65,23 @@
     <Compile Include="Assets\Enemies\Skeleton01\Scripts\skeleton01_chase.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\PlayerMotor.cs" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\wood-877000.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\patch-924648.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\brick-957827.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\wood-877365.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\stone-805287.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\brick-957823.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\brick-807728.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\wood-938698.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\README.txt" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\wall-846013.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\tile-846018.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\bricks-868344.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\texture-709723.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\wall-617961.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\wall-846015.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\wood-731407.shader" />
+    <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\shading-671263.shader" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Lachlan Reid Esq/Documents/Desktop/Uni/Year 3/Sem 2/Game Engine Essentials/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
