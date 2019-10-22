@@ -14,12 +14,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Enemies/Skeleton01/Scripts/skeleton01_health.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerMotor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HealthPickup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shooting Assets/ShootBullet.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Enemies/Skeleton01/Scripts/skeleton01_Target.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Enemies/Skeleton01/Scripts/skeleton01_Attack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shooting Assets/BulletCollision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Player Scripts/PlayerHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Enemies/Skeleton01/Scripts/skeleton01_chase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/578B5B67-7E30-45F5-8675-3155BC1864CB/99/95ad0369/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -34,6 +36,7 @@
         <option value="$PROJECT_DIR$/Assets/Enemies/Skeleton01/Scripts/skeleton01_chase.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemies/Skeleton01/Scripts/skeleton01_Attack.cs" />
         <option value="$PROJECT_DIR$/Assets/Enemies/Skeleton01/Scripts/skeleton01_Target.cs" />
+        <option value="$PROJECT_DIR$/Assets/HealthPickup.cs" />
       </list>
     </option>
   </component>
@@ -87,7 +90,7 @@
       <workItem from="1571613847417" duration="13387000" />
       <workItem from="1571630323099" duration="2957000" />
       <workItem from="1571657532439" duration="16166000" />
-      <workItem from="1571707288481" duration="1867000" />
+      <workItem from="1571707288481" duration="4706000" />
     </task>
     <servers />
   </component>

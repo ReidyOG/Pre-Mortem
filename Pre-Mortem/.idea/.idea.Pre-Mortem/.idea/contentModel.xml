@@ -20,6 +20,7 @@
           </e>
         </e>
         <e p="GunSound.cs" t="Include" />
+        <e p="HealthPickup.cs" t="Include" />
         <e p="HighQualityBricks&amp;Walls" t="Include">
           <e p="Readme.txt" t="Include" />
           <e p="Shaders" t="Include">
