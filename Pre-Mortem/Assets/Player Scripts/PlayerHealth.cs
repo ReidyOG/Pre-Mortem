@@ -37,7 +37,7 @@ namespace Player_Scripts
                 Debug.Log(health);
                 if (health == 0)
                 {
-                    Application.Quit();
+                    
                 }
                 Debug.Log("Unhittable");
                 yield return new WaitForSeconds(1);
