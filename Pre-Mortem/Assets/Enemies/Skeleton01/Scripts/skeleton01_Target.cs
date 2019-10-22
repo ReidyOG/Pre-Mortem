@@ -52,7 +52,8 @@ public class skeleton01_Target : MonoBehaviour
 
     void MoveToTarget()
     {
-        if (targetTransform != null)
+        float distance = Vector3.Distance(targetTransform.position, gameObject.transform.position);
+        if (targetTransform != null && distance > 3)
         {
             SetNavDestination(targetTransform);
         }

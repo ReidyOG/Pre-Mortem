@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="C:\Users\Yash\.Rider2019.2\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\Yash\.Rider2019.2\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\Yash\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Pre-Mortem.2008496985.00" t="ExcludeRecursive" />
     <e p="C:\Users\Yash\Documents\GitHub\Pre-Mortem\Pre-Mortem" t="IncludeRecursive">
@@ -11,11 +12,14 @@
         <e p="Enemies" t="Include">
           <e p="Skeleton01" t="Include">
             <e p="Scripts" t="Include">
+              <e p="skeleton01_Attack.cs" t="Include" />
               <e p="skeleton01_chase.cs" t="Include" />
               <e p="skeleton01_health.cs" t="Include" />
+              <e p="skeleton01_Target.cs" t="Include" />
             </e>
           </e>
         </e>
+        <e p="GunSound.cs" t="Include" />
         <e p="HighQualityBricks&amp;Walls" t="Include">
           <e p="Readme.txt" t="Include" />
           <e p="Shaders" t="Include">
@@ -42,6 +46,9 @@
         </e>
         <e p="PlayerController.cs" t="Include" />
         <e p="PlayerMotor.cs" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="BillBoard.cs" t="Include" />
+        </e>
         <e p="Shooting Assets" t="Include">
           <e p="BulletCollision.cs" t="Include" />
           <e p="ShootBullet.cs" t="Include" />

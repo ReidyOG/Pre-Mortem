@@ -16,6 +16,10 @@ namespace Player_Scripts
             {
                 StartCoroutine(Waiting(collider));
             }
+            else
+            {
+                Debug.Log("Collided with: " + collided);
+            }
         }
 
         IEnumerator Waiting(Collider collider)

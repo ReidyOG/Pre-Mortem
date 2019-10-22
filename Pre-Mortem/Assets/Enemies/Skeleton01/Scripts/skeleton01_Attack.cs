@@ -10,7 +10,7 @@ public class skeleton01_Attack : MonoBehaviour
     private float attackRate = 3;
     private float nextAttack;
     //private int damage = 10;
-    private float minDistance = 5;
+    private float minDistance = 3;
     private float currentDistance;
     private Transform myTransform;
     private skeleton01_Target targetScript;
@@ -30,8 +30,6 @@ public class skeleton01_Attack : MonoBehaviour
         targetScript = GetComponent<skeleton01_Target>();
 
         StartCoroutine(Attack());
-
-
     }
 
     void CheckIfTargetInRange()
@@ -48,7 +46,6 @@ public class skeleton01_Attack : MonoBehaviour
                 anim.SetBool("isAttacking", true);
 
                 nextAttack = Time.time + attackRate;
-
             }
         }
     }
