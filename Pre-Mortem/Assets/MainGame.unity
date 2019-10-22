@@ -7343,6 +7343,7 @@ GameObject:
   - component: {fileID: 1212187872}
   - component: {fileID: 1212187871}
   - component: {fileID: 1212187870}
+  - component: {fileID: 1212187873}
   m_Layer: 0
   m_Name: SpawnPoint
   m_TagString: SpawnPoint
@@ -7423,6 +7424,22 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212187868}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1212187873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212187868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49f2e92289bfe194e9305ae7b072bc53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 3809590846972587622, guid: c00e8c583afe87d43934f62908a22826, type: 3}
+  spawner1: {fileID: 1212187868}
+  spawner2: {fileID: 396696165}
+  spawner3: {fileID: 340900831}
 --- !u!4 &1213351611 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4464907837938266, guid: aaa2bcc0e0a642b4191e1ea0d18dfece,
@@ -14592,6 +14609,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7761608226016743499, guid: 4cc7e97130b901149974592592017a04,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 2.11
+      objectReference: {fileID: 0}
+    - target: {fileID: -7761608226016743499, guid: 4cc7e97130b901149974592592017a04,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.59
+      objectReference: {fileID: 0}
     - target: {fileID: 6736942716078000086, guid: 4cc7e97130b901149974592592017a04,
         type: 3}
       propertyPath: m_Name

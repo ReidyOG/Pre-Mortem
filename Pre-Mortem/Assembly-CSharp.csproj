@@ -69,6 +69,7 @@
     <Compile Include="Assets\Enemies\Skeleton01\Scripts\skeleton01_chase.cs" />
     <Compile Include="Assets\Enemies\Skeleton01\Scripts\skeleton01_health.cs" />
     <Compile Include="Assets\Enemies\Skeleton01\Scripts\skeleton01_Target.cs" />
+    <Compile Include="Assets\EnemySpawner.cs" />
     <Compile Include="Assets\GunSound.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\PlayerMotor.cs" />
