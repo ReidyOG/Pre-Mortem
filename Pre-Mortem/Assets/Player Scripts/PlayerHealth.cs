@@ -7,6 +7,7 @@ namespace Player_Scripts
     {
         public int health = 3;
         private bool collisionOccuring = false;
+        public AudioSource mySource;
     
         // On Trigger event
         private void OnTriggerEnter(Collider collider)
@@ -32,10 +33,11 @@ namespace Player_Scripts
                 collisionOccuring = true;
                 Debug.Log("Collided with " + collider.gameObject.name);
                 health--;
+                mySource.Play();
                 Debug.Log(health);
                 if (health == 0)
                 {
-                    
+                    Application.Quit();
                 }
                 Debug.Log("Unhittable");
                 yield return new WaitForSeconds(1);
