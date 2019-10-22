@@ -59,11 +59,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Enemies\Skeleton01\Scripts\skeleton01_Attack.cs" />
     <Compile Include="Assets\Enemies\Skeleton01\Scripts\skeleton01_chase.cs" />
     <Compile Include="Assets\Enemies\Skeleton01\Scripts\skeleton01_health.cs" />
+    <Compile Include="Assets\Enemies\Skeleton01\Scripts\skeleton01_Target.cs" />
+    <Compile Include="Assets\GunSound.cs" />
     <Compile Include="Assets\Player Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\PlayerMotor.cs" />
+    <Compile Include="Assets\Scripts\BillBoard.cs" />
     <Compile Include="Assets\Shooting Assets\BulletCollision.cs" />
     <Compile Include="Assets\Shooting Assets\ShootBullet.cs" />
     <None Include="Assets\HighQualityBricks&amp;Walls\Shaders\wood-877000.shader" />

@@ -1536,7 +1536,6 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3809590846972587622}
-  m_Enabled: 1
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1227e4baad510b84abdc50625ea3848a, type: 3}
@@ -1556,6 +1555,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad7347cb1585d3d4b90d18ac302969e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBar: {fileID: 5329805516526545959}
+  health: 5
   skeleAnimator: {fileID: 3809590846972587628}
 --- !u!195 &1885050377
 NavMeshAgent:
