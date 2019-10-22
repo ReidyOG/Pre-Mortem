@@ -5,20 +5,17 @@ namespace Shooting_Assets
 {
     public class ShootBullet : MonoBehaviour
     {
+        public AudioSource mySource;
+        public AudioClip myClip;
         public GameObject projectile;
         public float speed;
         public float despawn;
-        // Start is called before the first frame update
-//        void Start()
-//        {
-//        
-//        }
 
-        // Update is called once per frame
         void Update()
         {
             if (Input.GetButtonDown("Fire1"))
             {
+                mySource.PlayOneShot(myClip);
                 GameObject gun = GameObject.FindWithTag("Gun");
                 GameObject cam = GameObject.FindWithTag("MainCamera");
                 Vector3 front = gun.transform.position;

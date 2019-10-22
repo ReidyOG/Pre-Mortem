@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class skeleton01_Attack : MonoBehaviour
 {
-
+    public static GameObject playerHit;
+    private AudioSource mySource;
+    private AudioClip hitClip;
     private float attackRate = 3;
     private float nextAttack;
     //private int damage = 10;
@@ -19,6 +21,9 @@ public class skeleton01_Attack : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        playerHit = GameObject.Find("Player");
+        mySource = playerHit.GetComponent<AudioSource>();
+        hitClip = playerHit.GetComponent<AudioClip>();
         anim = GetComponent<Animator>();
 
         myTransform = transform;
@@ -37,6 +42,7 @@ public class skeleton01_Attack : MonoBehaviour
 
             if (currentDistance < minDistance && Time.time > nextAttack)
             {
+                mySource.Play();
                 anim.SetBool("isIdle", false);
                 anim.SetBool("isWalking", false);
                 anim.SetBool("isAttacking", true);
