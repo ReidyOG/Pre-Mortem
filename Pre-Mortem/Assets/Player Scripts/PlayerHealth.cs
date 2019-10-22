@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Player_Scripts
 {
@@ -7,7 +8,16 @@ namespace Player_Scripts
     {
         public int health = 3;
         private bool collisionOccuring = false;
-    
+
+        // Health UI
+        public GameObject HP1;
+        public GameObject HP2;
+        public GameObject HP3;
+        public Sprite REDHEART;
+        public Sprite GRAYHEART;
+        public GameObject DeathScreen;
+        public Color SHOW = Color.red;
+
         // On Trigger event
         private void OnTriggerEnter(Collider collider)
         {
@@ -22,6 +32,45 @@ namespace Player_Scripts
             }
         }
 
+        private void HealthUI()
+        {
+            SHOW.a = 1;
+            switch (health)
+            {
+                case 3:
+                    HP1.GetComponent<Image>().sprite = REDHEART;
+                    HP2.GetComponent<Image>().sprite = REDHEART;
+                    HP3.GetComponent<Image>().sprite = REDHEART;
+                    break;
+                case 2:
+                    HP1.GetComponent<Image>().sprite = REDHEART;
+                    HP2.GetComponent<Image>().sprite = REDHEART;
+                    HP3.GetComponent<Image>().sprite = GRAYHEART;
+                    break;
+                case 1:
+                    HP1.GetComponent<Image>().sprite = REDHEART;
+                    HP2.GetComponent<Image>().sprite = GRAYHEART;
+                    HP3.GetComponent<Image>().sprite = GRAYHEART;
+                    break;
+                case 0:
+                    HP1.GetComponent<Image>().sprite = GRAYHEART;
+                    HP2.GetComponent<Image>().sprite = GRAYHEART;
+                    HP3.GetComponent<Image>().sprite = GRAYHEART;
+                    DeathScreen.GetComponent<Text>().color = SHOW;
+                    StartCoroutine(Death());
+                    UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+                    break;
+                default:
+                    UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+                    break;
+            }
+        }
+
+        IEnumerator Death()
+        {
+            yield return new WaitForSecondsRealtime(5);
+        }
+
         IEnumerator Waiting(Collider collider)
         {
             AnimatorStateInfo skeleState = (collider.gameObject.GetComponentInParent<Animator>().GetCurrentAnimatorStateInfo(0));
@@ -32,6 +81,7 @@ namespace Player_Scripts
                 collisionOccuring = true;
                 Debug.Log("Collided with " + collider.gameObject.name);
                 health--;
+                HealthUI();
                 Debug.Log(health);
                 if (health == 0)
                 {
