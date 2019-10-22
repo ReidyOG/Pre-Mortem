@@ -16,6 +16,30 @@
             </e>
           </e>
         </e>
+        <e p="HighQualityBricks&amp;Walls" t="Include">
+          <e p="Readme.txt" t="Include" />
+          <e p="Shaders" t="Include">
+            <e p="brick-807728.shader" t="Include" />
+            <e p="brick-957823.shader" t="Include" />
+            <e p="brick-957827.shader" t="Include" />
+            <e p="bricks-868344.shader" t="Include" />
+            <e p="patch-924648.shader" t="Include" />
+            <e p="shading-671263.shader" t="Include" />
+            <e p="stone-805287.shader" t="Include" />
+            <e p="texture-709723.shader" t="Include" />
+            <e p="tile-846018.shader" t="Include" />
+            <e p="wall-617961.shader" t="Include" />
+            <e p="wall-846013.shader" t="Include" />
+            <e p="wall-846015.shader" t="Include" />
+            <e p="wood-731407.shader" t="Include" />
+            <e p="wood-877000.shader" t="Include" />
+            <e p="wood-877365.shader" t="Include" />
+            <e p="wood-938698.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Player Scripts" t="Include">
+          <e p="PlayerHealth.cs" t="Include" />
+        </e>
         <e p="PlayerController.cs" t="Include" />
         <e p="PlayerMotor.cs" t="Include" />
         <e p="Shooting Assets" t="Include">
