@@ -18,6 +18,8 @@ namespace Player_Scripts
         public GameObject DeathScreen;
         public Color SHOW = Color.red;
 
+        public AudioSource mySource;
+    
         // On Trigger event
         private void OnTriggerEnter(Collider collider)
         {
@@ -82,6 +84,7 @@ namespace Player_Scripts
                 Debug.Log("Collided with " + collider.gameObject.name);
                 health--;
                 HealthUI();
+                mySource.Play();
                 Debug.Log(health);
                 if (health == 0)
                 {

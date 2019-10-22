@@ -7,14 +7,11 @@ namespace Shooting_Assets
         public static GameObject hitObject;
         private AudioSource mySource;
 
-        private void Start()
-        {
-            hitObject = GameObject.Find("Skeleton");
-            mySource = hitObject.GetComponent<AudioSource>();
-        }
         // onTrigger is called when its collider hits another collider
         private void OnTriggerEnter(Collider collider)
         {
+            hitObject = collider.gameObject;
+            mySource = hitObject.GetComponent<AudioSource>();
             if (collider.gameObject.tag.Equals("enemy"))
             {
                 mySource.Play();

@@ -1,4 +1,4 @@
-Base path: C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data
+Base path: C:/Program Files/Unity/Hub/Editor/2019.1.14f1/Editor/Data
 Cmd: initializeCompiler
 Cmd: compileSnippet
   error: 1 plat 4 at (27): 'UNITY_PASS_FORWARDBASE' : macro redefinition\nCompiling Fragment program with UNITY_PASS_FORWARDBASE DIRECTIONAL SHADOWS_SCREEN LIGHTPROBE_SH LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
