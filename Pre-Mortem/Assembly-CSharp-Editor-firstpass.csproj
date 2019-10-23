@@ -57,9 +57,6 @@
     <UnityVersion>2019.1.2f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.2f1\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -75,25 +72,25 @@
     <Compile Include="Assets\Standard Assets\Editor\Water\Water4\WaterBaseEditor.cs" />
     <Compile Include="Assets\Standard Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/CSCI356 Group Assignment/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Lachlan Reid Esq/Documents/Desktop/Uni/Year 3/Sem 2/Game Engine Essentials/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/CSCI356 Group Assignment/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Lachlan Reid Esq/Documents/Desktop/Uni/Year 3/Sem 2/Game Engine Essentials/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/CSCI356 Group Assignment/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Lachlan Reid Esq/Documents/Desktop/Uni/Year 3/Sem 2/Game Engine Essentials/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/CSCI356 Group Assignment/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Lachlan Reid Esq/Documents/Desktop/Uni/Year 3/Sem 2/Game Engine Essentials/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/CSCI356 Group Assignment/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Lachlan Reid Esq/Documents/Desktop/Uni/Year 3/Sem 2/Game Engine Essentials/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/CSCI356 Group Assignment/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Lachlan Reid Esq/Documents/Desktop/Uni/Year 3/Sem 2/Game Engine Essentials/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>C:/CSCI356 Group Assignment/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>C:/Users/Lachlan Reid Esq/Documents/Desktop/Uni/Year 3/Sem 2/Game Engine Essentials/Pre-Mortem/Pre-Mortem/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -294,25 +291,25 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
-      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+      <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="JetBrains.Rider.Unity.Editor.Plugin.Repacked">
-      <HintPath>C:/CSCI356 Group Assignment/Pre-Mortem/Pre-Mortem/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
+      <HintPath>C:/Users/Lachlan Reid Esq/Documents/Desktop/Uni/Year 3/Sem 2/Game Engine Essentials/Pre-Mortem/Pre-Mortem/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
-      <HintPath>C:/CSCI356 Group Assignment/Pre-Mortem/Pre-Mortem/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
+      <HintPath>C:/Users/Lachlan Reid Esq/Documents/Desktop/Uni/Year 3/Sem 2/Game Engine Essentials/Pre-Mortem/Pre-Mortem/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>C:/CSCI356 Group Assignment/Pre-Mortem/Pre-Mortem/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>C:/Users/Lachlan Reid Esq/Documents/Desktop/Uni/Year 3/Sem 2/Game Engine Essentials/Pre-Mortem/Pre-Mortem/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>C:/CSCI356 Group Assignment/Pre-Mortem/Pre-Mortem/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Lachlan Reid Esq/Documents/Desktop/Uni/Year 3/Sem 2/Game Engine Essentials/Pre-Mortem/Pre-Mortem/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>C:/CSCI356 Group Assignment/Pre-Mortem/Pre-Mortem/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>C:/Users/Lachlan Reid Esq/Documents/Desktop/Uni/Year 3/Sem 2/Game Engine Essentials/Pre-Mortem/Pre-Mortem/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Purchasing">
-      <HintPath>C:/CSCI356 Group Assignment/Pre-Mortem/Pre-Mortem/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+      <HintPath>C:/Users/Lachlan Reid Esq/Documents/Desktop/Uni/Year 3/Sem 2/Game Engine Essentials/Pre-Mortem/Pre-Mortem/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
